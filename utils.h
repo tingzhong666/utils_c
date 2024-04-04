@@ -17,8 +17,8 @@ extern "C"
     typedef struct
     {
         void *data;
-        int err;
-        char *err_msg;
+        int code;
+        char *msg;
     } RES;
 
     void info(void);

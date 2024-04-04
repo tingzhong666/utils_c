@@ -8,5 +8,5 @@
 // 打印当前位置
 void info()
 {
-    printf("err file:%s line:%d\n", __FILE__, __LINE__);
+    printf("msg file:%s line:%d\n", __FILE__, __LINE__);
 }
